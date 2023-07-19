@@ -1,0 +1,117 @@
+{
+  "pedidos": [
+    {
+      "id": 1,
+      "mensageiro": "Luigi",
+      "cliente": "Renner",
+      "dataPedido": "30-06-2023 08:40:10",
+      "localEntrega": {
+        "logradouro": "Rua Teste",
+        "numero": "23",
+        "bairro": "Centro",
+        "complemento": "prédio cinza",
+        "cep": "78455000",
+        "cidade": "Florianópolis",
+        "estado": "Santa Catarina"
+      },
+      "localOrigem": {
+        "logradouro": "Rua Teste",
+        "numero": "23",
+        "bairro": "Centro",
+        "complemento": "prédio cinza",
+        "cep": "78455000",
+        "cidade": "Florianópolis",
+        "estado": "Santa Catarina"
+      },
+      "dataEntrega": "30-06-2023 12:40:10",
+      "status": "Finalizado",
+      "historicoStatus": [
+        {
+          "status": "Pedido recebido",
+          "dataStatus": "30-06-2023 08:40:10"
+        },
+        {
+          "status": "Em rota de entrega",
+          "dataStatus": "30-06-2023 09:15:00",
+          "dataPrevistaEntrega": "30-06-2023 12:30:00"
+        },
+        {
+          "status": "Finalizado",
+          "dataStatus": "30-06-2023 12:40:10"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "mensageiro": "Mario",
+      "cliente": "Lojista ABC",
+      "dataPedido": "30-06-2023 14:20:00",
+      "localEntrega": {
+        "logradouro": "Rua Teste",
+        "numero": "23",
+        "bairro": "Centro",
+        "complemento": "prédio cinza",
+        "cep": "78455000",
+        "cidade": "Florianópolis",
+        "estado": "Santa Catarina"
+      },
+      "localOrigem": {
+        "logradouro": "Rua Teste",
+        "numero": "23",
+        "bairro": "Centro",
+        "complemento": "prédio cinza",
+        "cep": "78455000",
+        "cidade": "Florianópolis",
+        "estado": "Santa Catarina"
+      },
+      "status": "Em rota de entrega",
+      "historicoStatus": [
+        {
+          "status": "Pedido recebido",
+          "dataStatus": "30-06-2023 14:20:00"
+        },
+        {
+          "status": "Em rota de entrega",
+          "dataStatus": "30-06-2023 15:10:00",
+          "dataPrevistaEntrega": "30-06-2023 16:30:00"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "mensageiro": "Peach",
+      "cliente": "Fornecedor 123",
+      "dataPedido": "30-06-2023 10:00:00",
+      "localEntrega": {
+        "logradouro": "Rua Teste",
+        "numero": "23",
+        "bairro": "Centro",
+        "complemento": "prédio cinza",
+        "cep": "78455000",
+        "cidade": "Florianópolis",
+        "estado": "Santa Catarina"
+      },
+      "localOrigem": {
+        "logradouro": "Rua Teste",
+        "numero": "23",
+        "bairro": "Centro",
+        "complemento": "prédio cinza",
+        "cep": "78455000",
+        "cidade": "Florianópolis",
+        "estado": "Santa Catarina"
+      },
+      "status": "Em rota para coleta",
+      "historicoStatus": [
+        {
+          "status": "Pedido recebido",
+          "dataStatus": "30-06-2023 10:00:00"
+        },
+        {
+          "status": "Em rota para coleta",
+          "dataStatus": "30-06-2023 10:30:00",
+          "dataPrevistaEntrega": "30-06-2023 11:00:00"
+        }
+      ]
+    }
+  ]
+}
