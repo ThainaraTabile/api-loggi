@@ -2,114 +2,144 @@
   "pedidos": [
     {
       "id": 1,
-      "mensageiro": "Luigi",
-      "cliente": "Renner",
+      "mensageiro": "Luigi José",
+      "cliente": "Thainara Tabile",
       "dataPedido": "30-06-2023 08:40:10",
       "localEntrega": {
-        "logradouro": "Rua Teste",
-        "numero": "23",
-        "bairro": "Centro",
-        "complemento": "prédio cinza",
-        "cep": "78455000",
-        "cidade": "Florianópolis",
+        "logradouro": "Rua Maria Manchen de Souza",
+        "numero": "387",
+        "bairro": "Kobrassol",
+        "complemento": "AP 102",
+        "cep": "88102500",
+        "cidade": "São José",
         "estado": "Santa Catarina"
       },
       "localOrigem": {
-        "logradouro": "Rua Teste",
-        "numero": "23",
-        "bairro": "Centro",
-        "complemento": "prédio cinza",
-        "cep": "78455000",
+        "logradouro": "Rua Édson Areas",
+        "numero": "14",
+        "bairro": "Trindade",
+        "complemento": "AP 102",
+        "cep": "88076070",
         "cidade": "Florianópolis",
         "estado": "Santa Catarina"
       },
       "dataEntrega": "30-06-2023 12:40:10",
-      "status": "Finalizado",
+      "dataPrevistaEntrega": "30-06-2023 12:30:00",
+      "status": "FINALIZADO",
+      "descricao": "Finalizado",
       "historicoStatus": [
         {
-          "status": "Pedido recebido",
+          "status": "PEDIDO_RECEBIDO",
+          "descricao": "Pedido recebido",
           "dataStatus": "30-06-2023 08:40:10"
         },
         {
-          "status": "Em rota de entrega",
-          "dataStatus": "30-06-2023 09:15:00",
-          "dataPrevistaEntrega": "30-06-2023 12:30:00"
+          "status": "EM_ROTA_PARA_COLETA",
+          "descricao": "Em rota para coleta",
+          "dataStatus": "30-06-2023 09:12:00"
         },
         {
-          "status": "Finalizado",
+          "status": "PACOTE_COLETADO",
+          "descricao": "Pacote coletado",
+          "dataStatus": "30-06-2023 09:12:00"
+        },
+        {
+          "status": "EM_ROTA_DE_ENTREGA",
+          "descricao": "Em rota de entrega",
+          "dataStatus": "30-06-2023 09:15:00"
+        },
+        {
+          "status": "FINALIZADO",
+          "descricao": "Finalizado",
           "dataStatus": "30-06-2023 12:40:10"
         }
       ]
     },
     {
       "id": 2,
-      "mensageiro": "Mario",
-      "cliente": "Lojista ABC",
-      "dataPedido": "30-06-2023 14:20:00",
+      "mensageiro": "Matheus Jaiminho",
+      "cliente": "Oba Oba Center",
+      "dataPedido": "15-06-2023 14:00:10",
+      "dataPrevistaEntrega": "18-06-2023 14:00:10",
       "localEntrega": {
-        "logradouro": "Rua Teste",
-        "numero": "23",
-        "bairro": "Centro",
-        "complemento": "prédio cinza",
+        "logradouro": "Rua catuipe",
+        "numero": "1696E",
+        "bairro": "Cidade Nova",
+        "complemento": "próximo ao hospital",
         "cep": "78455000",
-        "cidade": "Florianópolis",
-        "estado": "Santa Catarina"
+        "cidade": "Lucas do Rio Verde",
+        "estado": "Mato Grosso"
       },
       "localOrigem": {
-        "logradouro": "Rua Teste",
-        "numero": "23",
-        "bairro": "Centro",
-        "complemento": "prédio cinza",
-        "cep": "78455000",
-        "cidade": "Florianópolis",
-        "estado": "Santa Catarina"
+        "logradouro": "Rua Venancio Aires",
+        "numero": "204",
+        "bairro": "Vila Pompéia",
+        "complemento": "Casa 02",
+        "cep": "88349000",
+        "cidade": "São Paulo",
+        "estado": "São Paulo"
       },
-      "status": "Em rota de entrega",
+      "status": "EM_ROTA_DE_ENTREGA",
+      "descricao": "Em rota de entrega",
       "historicoStatus": [
         {
-          "status": "Pedido recebido",
-          "dataStatus": "30-06-2023 14:20:00"
+          "status": "PEDIDO_RECEBIDO",
+          "descricao": "Pedido recebido",
+          "dataStatus": "15-06-2023 14:00:10"
         },
         {
-          "status": "Em rota de entrega",
-          "dataStatus": "30-06-2023 15:10:00",
-          "dataPrevistaEntrega": "30-06-2023 16:30:00"
+          "status": "ENCAMINHADO_CENTRO_DE_DISTRIBUICAO",
+          "descricao": "Encaminhado para centro de distribuição de cajamar",
+          "dataStatus": "15-06-2023 17:10:30"
+        },
+        {
+          "status": "ENCAMINHADO_CENTRO_DE_DISTRIBUICAO",
+          "descricao": "Encaminhado para centro de distribuição de cuiabá",
+          "dataStatus": "17-06-2023 09:40:22"
+        },
+        {
+          "status": "EM_ROTA_DE_ENTREGA",
+          "descricao": "Em rota de entrega",
+          "dataStatus": "18-06-2023 09:40:22"
         }
       ]
     },
     {
       "id": 3,
-      "mensageiro": "Peach",
-      "cliente": "Fornecedor 123",
-      "dataPedido": "30-06-2023 10:00:00",
+      "mensageiro": "Pedro Santos",
+      "cliente": "GM Auto Peças",
+      "dataPedido": "08-06-2023 10:00:01",
+      "dataPrevistaEntrega": "08-06-2023 22:00:00",
       "localEntrega": {
-        "logradouro": "Rua Teste",
+        "logradouro": "Rua dos carajás",
         "numero": "23",
         "bairro": "Centro",
         "complemento": "prédio cinza",
         "cep": "78455000",
-        "cidade": "Florianópolis",
-        "estado": "Santa Catarina"
+        "cidade": "Sinop",
+        "estado": "Mato Grosso"
       },
       "localOrigem": {
-        "logradouro": "Rua Teste",
-        "numero": "23",
-        "bairro": "Centro",
-        "complemento": "prédio cinza",
-        "cep": "78455000",
-        "cidade": "Florianópolis",
-        "estado": "Santa Catarina"
+        "logradouro": "Rua Professor Celestino Bourroul",
+        "numero": "187",
+        "bairro": "Limão",
+        "complemento": "AP 132",
+        "cep": "88246010",
+        "cidade": "São Paulo",
+        "estado": "São Paulo"
       },
-      "status": "Em rota para coleta",
+      "status": "EM_ROTA_PARA_COLETA",
+      "descricao": "Em rota para coleta",
       "historicoStatus": [
         {
-          "status": "Pedido recebido",
-          "dataStatus": "30-06-2023 10:00:00"
+          "status": "PEDIDO_RECEBIDO",
+          "descricao": "Pedido recebido",
+          "dataStatus": "08-06-2023 10:00:01"
         },
         {
-          "status": "Em rota para coleta",
-          "dataStatus": "30-06-2023 10:30:00",
-          "dataPrevistaEntrega": "30-06-2023 11:00:00"
+          "status": "EM_ROTA_PARA_COLETA",
+          "descricao": "Em rota para coleta",
+          "dataStatus": "08-06-2023 12:05:21"
         }
       ]
     }
